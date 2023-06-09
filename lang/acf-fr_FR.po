@@ -5449,7 +5449,7 @@ msgstr "Groupes de champs"
 msgid "Customize WordPress with powerful, professional and intuitive fields."
 msgstr ""
 "Personnalisez WordPress avec des champs intuitifs, puissants et "
-"professionnels."
+"professionnels. Version modifiée par Lepermislibre."
 
 #. Plugin URI of the plugin
 msgid "https://www.advancedcustomfields.com"

@@ -234,11 +234,11 @@ class ACF_Rest_Api {
 				$value  = acf_format_value_for_rest( $value, $post_id, $field, $format );
 
 
-				// Return file's URL instead of it's ID as the media api as our wordpress SEO platform can't return us the full media nor media url. 
+				// Return file's URL instead of its ID as the media api as our wordpress SEO platform can't return us the full media nor media url.
 				// Oh god, that's dirty. but I'm sorry, wordpress IS dirty. Have a nice day if you read this. Henri
 				if ($field["type"] === 'file' && is_numeric($value)) {
-                    $value = wp_get_attachment_url($value);
-                }
+					$value = wp_get_attachment_url($value);
+				}
 
 				$fields[ $field['name'] ] = $value;
 			}
